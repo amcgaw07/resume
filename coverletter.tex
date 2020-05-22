@@ -1,0 +1,136 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\name{Anthony}{McGaw}
+\position{Bachelor of Computer Science{\enskip\cdotp\enskip}University of Pittsburgh}
+\address{9397 Peebles Rd. Allison Park, PA 15101}
+
+\mobile{412-228-7901}
+\email{ajm279@pitt.edu}
+%\homepage{www.posquit0.com}
+%\github{amcgaw07}
+%\linkedin{posquit0}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {American Eagle Outfitters}
+  {American Eagle Corporate Office\\77 Hot Metal\\Pittsburgh, PA 15203}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Engineering Intern}
+% How the letter is opened
+\letteropening{Dear American Eagle,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Anthony McGaw~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+While looking through internships around the Pittsburgh area I was excited to find an opportunity from American Eagle Outfitters. I followed a listing from indeed.com and discovered the Engineering Intern job listing on the aeo.jobs website and would like to learn more. I am currently a junior computer science major at the University of Pittsburgh looking to attain some real-world experience. I believe my skills which I have learned through my coursework and my first-hand retail experience could make me a useful candidate for this position.
+
+Since entering the University of Pittsburgh one of my biggest career goals has been to become a member of a well-respected and innovative company such as American Eagle. I have a passion for discovering what goes on 'behind the curtain'. It is what initially drove me into engineering, and what eventually pushed me into computer science, the ultimate behind the scenes in our technological world. Through my first year as an engineer I learned what it takes to be a part of a team. I worked with a partner to complete a semester long, technical research paper and an accompanying presentation which we presented at the end of semester conference. Throughout the process we had to meet strict deadlines, confer with peer groups researching similar topics, as well as report to a department chair on our progress
+
+While working for HomeGoods, a member of the TJX Companies Inc. I was a part of various different teams which allowed me to improve my communication and interpersonal skills. This includes working within the backroom assisting the coordinator with large truck deliveries, traveling the sales floor organizing the store and merchandizing, as well as cashiering and providing customer service. My focus and dedication to my work ensured my managers that I could handle any task they needed from me. In addition to these soft skills, I believe that from working within retail I have attained a strong understanding of what a customer expects from their shopping experience. This includes both what they enjoy as well as what they seemed to dislike. While not everything will transfer to an online shopping experience, I believe that it will allow me to have a better perspective on what people may expect from a retailer such as American Eagle. 
+
+I hope that you will consider me for this position. You can reach me at 412-228-7901 or email me at ajm279@pitt.edu. I look forward to hearing from you.  
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

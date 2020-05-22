@@ -1,0 +1,178 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Anthony} \headerlastnamestyle{McGaw} \\
+	\vspace{2mm}
+	{\faEnvelope\ ajm279@pitt.edu} | {\faMobile\ 412-228-7901} | {\faMapMarker\ Pittsburgh, PA}% | %{\faLink\ website@website.com}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor of Science in Computer Science}
+	{University of Pittsburgh}
+	{Pittsburgh, PA}
+	{August 2017 – Expected April 2021}
+	{GPA: 3.44 \newline
+	Dean's List: Fall 2018, Spring 2019, Fall 2019}
+	
+	
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Stock Room/Sales Floor/Front End Associate}
+	{Homegoods}
+	{McCandless, Pa}
+	{November 2015– August 2019}
+	{\begin{cvitems}
+		\item {Helped customers with any issues and always provided highest level of customer service }
+		\item {Worked with a team to ensure truck deliveries were unloaded in a timely manner}
+		\item {Helped managers reach monthly numbers for TJX credit sales }
+		\item {Contributed to maintaining the stores cleanliness as well as safety}
+		\end{cvitems}}
+\end{cventries}
+\vspace{-4mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Accessible at \href{http://www.pitt.edu/~ajm279/} {http://www.pitt.edu/~ajm279/}}
+	{Personal Website}
+	{Pittsburgh, PA}
+	{2020}
+	{\begin{cvitems}
+		\item {Used Bootstrap open-source framework as a base for the website}
+		\item {Designed core layout of website inside an HTML template and styled each section with CSS}
+		\item {Optimized layout to work on mobile platforms/smaller windows}
+		\end{cvitems}}
+	\cventry
+	{Accessible at \href{http://pitt-study.appspot.com} {http://pitt-study.appspot.com}}
+	{Pitt-Study Web Application}
+	{Pittsburgh, PA}
+	{2020-work in progress}
+	{\begin{cvitems}
+		\item {Working with group members to develop a "study session" web application}
+		\item {Implemented Python with Flask for back-end event and user creation}
+		\item {Application uses Cloud Datastore NoSQL database to store user and event data}
+		\item {Utilizes XmlHTTP requests to push changes to user }
+		\end{cvitems}}
+	\cventry
+	{small extra credit assignment to print out binary search tree accurately to command line}
+	{BST accurate print function }
+	{Pittsburgh, PA}
+	{2018}
+	{\begin{cvitems}
+		\item {Program takes in text files of numbers or letters in any order}
+		\item {Program sorts these inputs into an order which will produce a balanced BST }
+		\item {Outputs BST to the command line in visually pleasing manner}
+		\end{cvitems}}
+	%\cventry
+	%{java code emulating function of RISCV architecture}
+	%{java-assembler}
+	%{Pittsburgh, PA}
+	%{2018}
+	%{\begin{cvitems}
+	%	\item {MIPS style instruction assembler written in java}
+	%	\item {Utilizes bit shifting and logic functions to isolate bit sections}
+	%	\item {Splits pseudo MAL instructions into the appropriate TAL instruction set}
+	%	\end{cvitems}}
+	\cventry
+	{"CHEMICAL LOOPING COMBUSTION: A PIONEER PROCESS TOWARDS CLEAN ENERGY"}
+	{First-Year Engineering Conference - Swanson School of Engineering}
+	{Pittsburgh, PA}
+	{2018}
+	{\begin{cvitems}
+		\item {Co-wrote semester long research paper on the technology of chemical looping}
+		\item {Submitted drafts at different deadlines throughout the process}
+		\item {Created detailed presentation and poster to supplement our paper}
+		\item {Met with peer groups and section chair to exchange feedback and practice presenting }
+		\item {Presented paper in front of fellow classmates, families, and visiting employers }
+		\end{cvitems}}
+	
+	\vspace{-3mm}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Languages:  & {\skill{ Java, C, C++, MIPS, MATLAB, Python, JavaScript, HTML, CSS}} \\
+		Technology:  & {\skill{ Microsoft Office, Git/Github, UNIX, Google App Engine, Photoshop}} \\
+		Coursework:  & {\skill{ OS(in progress), Web Applications (in Progress), Algorithims, Data Structures, Discrete Mathematics,}} \\
+		 		    & {\skill{    Computer Organization, Calculus I-III, Written Professional Communication}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-11mm}
+\cvsection{Links}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.20}{\begin{tabular}{ l l }
+		Github:		\href{https://github.com/amcgaw07}{\bf 	https://github.com/amcgaw07} \\
+		LinkedIn:	\href{https://www.linkedin.com/in/anthony-mcgaw/}{\bf https://www.linkedin.com/in/anthony-mcgaw} \\
+		Website:		\href{http://www.pitt.edu/~ajm279/}{\bf 	http://www.pitt.edu/\~{}ajm279/} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+\ 
+\end{document}
