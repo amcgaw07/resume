@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.4.20)  20 APR 2020 18:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.4.20)  22 MAY 2020 16:32
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -620,7 +620,7 @@ able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 66.
 
-Overfull \hbox (119.75468pt too wide) in paragraph at lines 160--160
+Overfull \hbox (46.44064pt too wide) in paragraph at lines 160--160
 [][][]|  
  []
 
